@@ -1,0 +1,17 @@
+p{
+    text-align: center;
+}
+#picture{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-family:Fantasy;
+    font-size: 40px;
+    color: red;
+    
+}
+h1:hover:after{
+    color:skyblue
+}
+
