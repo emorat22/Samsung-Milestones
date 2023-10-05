@@ -1,8 +1,12 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title> Samsung Milestones</title>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
+    <title> Samsung Milestones</title>
     <style>
         h2{
             background-color: hotpink;
@@ -41,53 +45,117 @@
          
     </style>
 </head>
-<body style="background-color: blueviolet;">
-<h1 style="font-size:40px"><em>Samsung's Milestones</em></h1>
-<ul>
-
-    <li><h2>SGH-100</h2></li>
-        <ul><a href="http://www.flickr.com/photos/asimzb/3656591724/"><img src="https://th.bing.com/th/id/OIP.yL3YQfZVy4Sh1F5JFNKnxAHaH_?pid=ImgDet&rs=1"></a></ul>
-    <li><h2>55-inch projection TV</h2></li>
-        <ul id="idk"><a href="https://th.bing.com/th/id/OIP.mRCGS_mocsEkyBm4v6D8KAHaFj?pid=ImgDet&rs=1"><img id="picture-1" src="https://th.bing.com/th/id/OIP.mRCGS_mocsEkyBm4v6D8KAHaFj?pid=ImgDet&rs=1"></a></ul>
-    <li><h2>Samsung BD</h2></li>
-        <ul><a href="https://www.bing.com/aclick?ld=e8M7-xlZPf7-AHwadyY_gNLjVUCUyIofAPcM7h_mSqXkzHPuvN5KvZ-IFYneSCyqrSGIgVEUzphoVrlbTU-8Ox4xGiS5qKKABYzc1FlJvHFLjmnCrzVu0Xq8ryALEAJFtaaKhv2J5LcjUnng0KxCq6il_WSj3LkiuAQV1ZGKN35vGGohXz&u=aHR0cHMlM2ElMmYlMmZ3d3cuMjIwLWVsZWN0cm9uaWNzLmNvbSUyZnJlZ2lvbi1mcmVlLWJsdS1yYXktcGxheWVycyUyZnNob3BieSUyZnNhbXN1bmcuaHRtbCUzZm1zY2xraWQlM2QzZWViMGMyOGRiMjQxZDVmYWMyMDY4Y2MxMDY0NWU5NCUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZEJsdS1SYXklMjUyMEJyYW5kcyUyNnV0bV90ZXJtJTNkc2Ftc3VuZyUyNTIwcmVnaW9uZnJlZSUyNTIwYmx1JTI1MjByYXklMjUyMHBsYXllciUyNnV0bV9jb250ZW50JTNkU2Ftc3VuZyUyNTIwQmx1JTI1MjBSYXklMjUyMFBsYXllciUyNTIwLSUyNTIwUmVnaW9uJTI1MjBGcmVl&rlid=3eeb0c28db241d5fac2068cc10645e94"><img src="https://th.bing.com/th/id/OIP.wAzEpE8Rp6QRlfZ8tTXCRQHaE8?pid=ImgDet&rs=1"></a></ul>
-    <li><h2>Samsung Smart Hub</h2></li>
-        <ul><a href="https://www.bing.com/aclick?ld=e81sFKssTCs_HdTFaunWs4wjVUCUzT156JLO42Rdqtj3ZI1ObA9WUnVEoOTYCjoopos48ftf14uGP5Z83YDIovPPTqsNvBIwBzj3g_KaCY70oxoufoyM_WBLlj8mdXRUKUCOF2mW0IdsKJy6n5sTLNC1-UT9qaGaslmx80Bo94R80FFA1o&u=aHR0cHMlM2ElMmYlMmZjbGlja3NlcnZlLmRhcnRzZWFyY2gubmV0JTJmbGluayUyZmNsaWNrJTNmbGlkJTNkNDM3MDAwNzAyNzk0Mzk5ODYlMjZkc19zX2t3Z2lkJTNkNTg3MDAwMDc3NDA4ODE3NjUlMjZkc19hX2NpZCUzZDY2MTU0ODg4MCUyNmRzX2FfY2FpZCUzZDE2NjI1Mzk5OTU0JTI2ZHNfYV9hZ2lkJTNkMTMyNjEzOTk3NzM3JTI2ZHNfYV9saWQlM2Rrd2QtMzcyMzMzMDgzMjI0JTI2JTI2ZHNfZV9hZGlkJTNkNzQ5NzMxMDQ4OTA3NjYlMjZkc19lX3RhcmdldF9pZCUzZGt3ZC03NDk3MzIxMzA4MTczOCUzYWxvYy0xOTAlMjYlMjZkc19lX25ldHdvcmslM2RvJTI2ZHNfdXJsX3YlM2QyJTI2ZHNfZGVzdF91cmwlM2RodHRwcyUzYSUyZiUyZnd3dy5zYW1zdW5nLmNvbSUyZnVzJTJmdGVsZXZpc2lvbnMtaG9tZS10aGVhdGVyJTJmdHZzJTJmYWxsLXR2cyUyZiUzZnRlY2hub2xvZ3klM2RPTEVEJTJiVFZzJTI2Y2lkJTNkc2VtLW1rdGctcGZzLXR2LXVzLWJpbmctbmEtMDUwMjIwMjMtMTQxMjUxLSUyNmRzX2UlM2RNSUNST1NPRlQtY3IlM2ElMjUyNWVjaWQhLXBsJTNhJTI1MjVlcGlkIS0lMjZkc19jJTNkRkYlN2VPTEVEJTJiQnJhbmRfQ04lN2VvbGVkX0lEJTdlbmFfUEglN2Vvbl9NSyU3ZXVzX0JTJTdldmRfUFIlN2V0dl9TQiU3ZWJpdHZfRlMlN2Vsb19DQSU3ZWtld19LUyU3ZWJhX01UJTdlZXhhY3QtJTI2ZHNfYWclM2RBRyU3ZUZlYXR1cmVfSUQlN2VuYV9NSyU3ZXVzX0FUJTdldGFfTUQlN2VoX1BLJTdlY3BxbGhfUEIlN2ViaW5nX0FJJTdlbi0lMjZkc19rJTNkc2Ftc3VuZyUyYmh1YiUyYnNtYXJ0JTJidHYlMjZnY2xpZCUzZGEyNmQ5MDdhZjdjZDFiN2UzMjc2ZjQ5ZTNiNWUzNzhhJTI2Z2Nsc3JjJTNkM3AuZHMlMjYlMjZtc2Nsa2lkJTNkYTI2ZDkwN2FmN2NkMWI3ZTMyNzZmNDllM2I1ZTM3OGE&rlid=a26d907af7cd1b7e3276f49e3b5e378a"><img src="https://images.samsung.com/is/image/samsung/assets/hk_en/support/tv-audio-video/what-is-smart-hub/20130205180304431_WJM65JPH.gif?$1156_n_GIF$"></a></ul>
-    <li> <h2>UDHTV</li>
-        <ul><a href="https://www.samsung.com/us/support/televisions-home-theater/televisions/4k-uhd-tvs/2013-line-up"><img src="https://th.bing.com/th/id/OIP.tXDfZiVefsRm1aFCnPe43AAAAA?pid=ImgDet&rs=1"></a></ul>
-
-</ul>
-
-<table border="2px">
-    <tr>
-        <th class="SGH-100">SGH-100</th>
-        <th class="fiftey-five-inch-projection-Tv"> 55-inch projection TV.</th>
-        <th class="Samsung-BD"> Samsung BD</th>
-        <th class="Samsung-smart-hub"> Samsung Smart Hub </th>
-        <th class="UDHTV"> UDHTV</th>
-        </tr>
-      
-    <tr>
-        <td>
-            <a href="SGH-100.html"> SGH-100</a>
-        </td>
-        <td> <a href="55-inchprojectiontv.html">55-inch Projection Tv</a> </td>
-        <td> <a href="Samsung-Bd.html">Samsung BD</a></td>
-        <td> <a href="samsungsmarthub.html"> Samsung Smart Hub</a></td> 
-        <td> <a href="UDHTV.html">UDHTV</a></td>
-    </tr>
-   
-    <tr id="Date">
-
-        <td>123</td>
-        <td>123</td>
-        <td>i23</td>
-        <td>123</td>
-        <td>123</td>
-
-    </tr>
-</table>
-
-
-</body>
+  
+    <body style="background-color: rgb(142, 21, 255);">
+        <nav class="navbar navbar-dark bg-dark" aria-label="top navigation">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Milestones</a>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+                    <div class="navbar-collapse collapse" id="menu">
+                    <ul class="navbar-nav me-auto mb-2">
+                        <li class="nav  -item">
+                            <a class="nav-link" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Samsung-Bd.html">Samsung-Bd</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="samsungsmarthub.html">Samsung smart hub</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="SGH-100.html">SGH-100</a>
+                        </li>
+                        <li><hr class="dropdown-divider text-light"></li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="UDHTV.html">UDHTV</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+            </nav>
+        <h1 style="font-size:40px"><em>Samsung's Milestones</em></h1>
+        <ul>
+        
+            <li><h2>SGH-100</h2></li>
+                <ul><a href="http://www.flickr.com/photos/asimzb/3656591724/"><img src="https://th.bing.com/th/id/OIP.yL3YQfZVy4Sh1F5JFNKnxAHaH_?pid=ImgDet&rs=1"></a></ul>
+            <li><h2>55-inch projection TV</h2></li>
+                <ul id="idk"><a href="https://th.bing.com/th/id/OIP.mRCGS_mocsEkyBm4v6D8KAHaFj?pid=ImgDet&rs=1"><img id="picture-1" src="https://th.bing.com/th/id/OIP.mRCGS_mocsEkyBm4v6D8KAHaFj?pid=ImgDet&rs=1"></a></ul>
+            <li><h2>Samsung BD</h2></li>
+                <ul><a href="https://www.bing.com/aclick?ld=e8M7-xlZPf7-AHwadyY_gNLjVUCUyIofAPcM7h_mSqXkzHPuvN5KvZ-IFYneSCyqrSGIgVEUzphoVrlbTU-8Ox4xGiS5qKKABYzc1FlJvHFLjmnCrzVu0Xq8ryALEAJFtaaKhv2J5LcjUnng0KxCq6il_WSj3LkiuAQV1ZGKN35vGGohXz&u=aHR0cHMlM2ElMmYlMmZ3d3cuMjIwLWVsZWN0cm9uaWNzLmNvbSUyZnJlZ2lvbi1mcmVlLWJsdS1yYXktcGxheWVycyUyZnNob3BieSUyZnNhbXN1bmcuaHRtbCUzZm1zY2xraWQlM2QzZWViMGMyOGRiMjQxZDVmYWMyMDY4Y2MxMDY0NWU5NCUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZEJsdS1SYXklMjUyMEJyYW5kcyUyNnV0bV90ZXJtJTNkc2Ftc3VuZyUyNTIwcmVnaW9uZnJlZSUyNTIwYmx1JTI1MjByYXklMjUyMHBsYXllciUyNnV0bV9jb250ZW50JTNkU2Ftc3VuZyUyNTIwQmx1JTI1MjBSYXklMjUyMFBsYXllciUyNTIwLSUyNTIwUmVnaW9uJTI1MjBGcmVl&rlid=3eeb0c28db241d5fac2068cc10645e94"><img src="https://th.bing.com/th/id/OIP.wAzEpE8Rp6QRlfZ8tTXCRQHaE8?pid=ImgDet&rs=1"></a></ul>
+            <li><h2>Samsung Smart Hub</h2></li>
+                <ul><a href="https://www.bing.com/aclick?ld=e81sFKssTCs_HdTFaunWs4wjVUCUzT156JLO42Rdqtj3ZI1ObA9WUnVEoOTYCjoopos48ftf14uGP5Z83YDIovPPTqsNvBIwBzj3g_KaCY70oxoufoyM_WBLlj8mdXRUKUCOF2mW0IdsKJy6n5sTLNC1-UT9qaGaslmx80Bo94R80FFA1o&u=aHR0cHMlM2ElMmYlMmZjbGlja3NlcnZlLmRhcnRzZWFyY2gubmV0JTJmbGluayUyZmNsaWNrJTNmbGlkJTNkNDM3MDAwNzAyNzk0Mzk5ODYlMjZkc19zX2t3Z2lkJTNkNTg3MDAwMDc3NDA4ODE3NjUlMjZkc19hX2NpZCUzZDY2MTU0ODg4MCUyNmRzX2FfY2FpZCUzZDE2NjI1Mzk5OTU0JTI2ZHNfYV9hZ2lkJTNkMTMyNjEzOTk3NzM3JTI2ZHNfYV9saWQlM2Rrd2QtMzcyMzMzMDgzMjI0JTI2JTI2ZHNfZV9hZGlkJTNkNzQ5NzMxMDQ4OTA3NjYlMjZkc19lX3RhcmdldF9pZCUzZGt3ZC03NDk3MzIxMzA4MTczOCUzYWxvYy0xOTAlMjYlMjZkc19lX25ldHdvcmslM2RvJTI2ZHNfdXJsX3YlM2QyJTI2ZHNfZGVzdF91cmwlM2RodHRwcyUzYSUyZiUyZnd3dy5zYW1zdW5nLmNvbSUyZnVzJTJmdGVsZXZpc2lvbnMtaG9tZS10aGVhdGVyJTJmdHZzJTJmYWxsLXR2cyUyZiUzZnRlY2hub2xvZ3klM2RPTEVEJTJiVFZzJTI2Y2lkJTNkc2VtLW1rdGctcGZzLXR2LXVzLWJpbmctbmEtMDUwMjIwMjMtMTQxMjUxLSUyNmRzX2UlM2RNSUNST1NPRlQtY3IlM2ElMjUyNWVjaWQhLXBsJTNhJTI1MjVlcGlkIS0lMjZkc19jJTNkRkYlN2VPTEVEJTJiQnJhbmRfQ04lN2VvbGVkX0lEJTdlbmFfUEglN2Vvbl9NSyU3ZXVzX0JTJTdldmRfUFIlN2V0dl9TQiU3ZWJpdHZfRlMlN2Vsb19DQSU3ZWtld19LUyU3ZWJhX01UJTdlZXhhY3QtJTI2ZHNfYWclM2RBRyU3ZUZlYXR1cmVfSUQlN2VuYV9NSyU3ZXVzX0FUJTdldGFfTUQlN2VoX1BLJTdlY3BxbGhfUEIlN2ViaW5nX0FJJTdlbi0lMjZkc19rJTNkc2Ftc3VuZyUyYmh1YiUyYnNtYXJ0JTJidHYlMjZnY2xpZCUzZGEyNmQ5MDdhZjdjZDFiN2UzMjc2ZjQ5ZTNiNWUzNzhhJTI2Z2Nsc3JjJTNkM3AuZHMlMjYlMjZtc2Nsa2lkJTNkYTI2ZDkwN2FmN2NkMWI3ZTMyNzZmNDllM2I1ZTM3OGE&rlid=a26d907af7cd1b7e3276f49e3b5e378a"><img src="https://images.samsung.com/is/image/samsung/assets/hk_en/support/tv-audio-video/what-is-smart-hub/20130205180304431_WJM65JPH.gif?$1156_n_GIF$"></a></ul>
+            <li> <h2>UDHTV</li>
+                <ul><a href="https://www.samsung.com/us/support/televisions-home-theater/televisions/4k-uhd-tvs/2013-line-up"><img src="https://th.bing.com/th/id/OIP.tXDfZiVefsRm1aFCnPe43AAAAA?pid=ImgDet&rs=1"></a></ul>
+        
+        </ul>
+        
+        <table border="2px">
+            <tr>
+                <th class="SGH-100">SGH-100</th>
+                <th class="fiftey-five-inch-projection-Tv"> 55-inch projection TV.</th>
+                <th class="Samsung-BD"> Samsung BD</th>
+                <th class="Samsung-smart-hub"> Samsung Smart Hub </th>
+                <th class="UDHTV"> UDHTV</th>
+                </tr>
+              
+            <tr>
+                <td>
+                    <a href="SGH-100.html"> SGH-100</a>
+                </td>
+                <td> <a href="55-inchprojectiontv.html">55-inch Projection Tv</a> </td>
+                <td> <a href="Samsung-Bd.html">Samsung BD</a></td>
+                <td> <a href="samsungsmarthub.html"> Samsung Smart Hub</a></td> 
+                <td> <a href="UDHTV.html">UDHTV</a></td>
+            </tr>
+           
+            <tr id="Date">
+        
+                <td>123</td>
+                <td>123</td>
+                <td>i23</td>
+                <td>123</td>
+                <td>123</td>
+        
+            </tr>
+        </table>
+        
+        
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
